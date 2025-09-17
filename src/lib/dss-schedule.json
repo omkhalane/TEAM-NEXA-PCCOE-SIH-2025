@@ -1,0 +1,109 @@
+{
+  "trains": [
+    {
+      "trainNo": "12951",
+      "trainName": "Mumbai Rajdhani",
+      "platform": "3",
+      "daysOfRun": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "priority": "High",
+      "passengerCount": 1200,
+      "trainType": "Express",
+      "stops": [
+        {
+          "stationCode": "NDLS",
+          "scheduledArrival": null,
+          "scheduledDeparture": "2025-09-22T17:00:00+05:30"
+        },
+        {
+          "stationCode": "AGC",
+          "scheduledArrival": "2025-09-22T19:00:00+05:30",
+          "scheduledDeparture": "2025-09-22T19:05:00+05:30"
+        }
+      ]
+    },
+    {
+      "trainNo": "59012",
+      "trainName": "NDLS-AGC Freight",
+      "platform": "3",
+      "daysOfRun": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "priority": "Low",
+      "passengerCount": 0,
+      "trainType": "Freight",
+      "stops": [
+        {
+          "stationCode": "NDLS",
+          "scheduledArrival": null,
+          "scheduledDeparture": "2025-09-22T17:05:00+05:30"
+        },
+        {
+          "stationCode": "AGC",
+          "scheduledArrival": "2025-09-22T19:15:00+05:30",
+          "scheduledDeparture": "2025-09-22T19:20:00+05:30"
+        }
+      ]
+    },
+    {
+      "trainNo": "12301",
+      "trainName": "Howrah Rajdhani",
+      "platform": "1",
+      "daysOfRun": ["Mon", "Tue", "Wed", "Thu", "Sat"],
+      "priority": "High",
+      "passengerCount": 1100,
+      "trainType": "Express",
+       "stops": [
+        {
+          "stationCode": "NDLS",
+          "scheduledArrival": null,
+          "scheduledDeparture": "2025-09-22T16:50:00+05:30"
+        },
+        {
+          "stationCode": "AGC",
+          "scheduledArrival": "2025-09-22T18:55:00+05:30",
+          "scheduledDeparture": "2025-09-22T19:00:00+05:30"
+        }
+      ]
+    },
+     {
+      "trainNo": "97014",
+      "trainName": "Delhi-Agra Local",
+      "platform": "5",
+      "daysOfRun": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "priority": "Normal",
+      "passengerCount": 1500,
+      "trainType": "Local",
+       "stops": [
+        {
+          "stationCode": "NDLS",
+          "scheduledArrival": null,
+          "scheduledDeparture": "2025-09-22T17:10:00+05:30"
+        },
+        {
+          "stationCode": "AGC",
+          "scheduledArrival": "2025-09-22T20:10:00+05:30",
+          "scheduledDeparture": "2025-09-22T20:15:00+05:30"
+        }
+      ]
+    },
+    {
+      "trainNo": "11041",
+      "trainName": "Agra Express",
+      "platform": "1",
+      "daysOfRun": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "priority": "Normal",
+      "passengerCount": 800,
+      "trainType": "Express",
+       "stops": [
+        {
+          "stationCode": "NDLS",
+          "scheduledArrival": null,
+          "scheduledDeparture": "2025-09-22T18:00:00+05:30"
+        },
+        {
+          "stationCode": "AGC",
+          "scheduledArrival": "2025-09-22T20:30:00+05:30",
+          "scheduledDeparture": "2025-09-22T20:35:00+05:30"
+        }
+      ]
+    }
+  ]
+}

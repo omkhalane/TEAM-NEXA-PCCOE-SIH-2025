@@ -1,0 +1,4402 @@
+
+{
+  "success": true,
+  "data": {
+    "train": {
+      "number": "12301",
+      "name": "Howrah - New Delhi Rajdhani Express (Via Gaya)",
+      "type": "Rajdhani",
+      "source": {
+        "code": "HWH",
+        "name": "Howrah Jn"
+      },
+      "destination": {
+        "code": "NDLS",
+        "name": "New Delhi"
+      }
+    },
+    "travelTime": "1020",
+    "runDays": "126",
+    "availableClasses": [],
+    "validFrom": "1752463865.729",
+    "isReserved": false,
+    "availableStartDates": [],
+    "route": [
+      {
+        "stopNumber": 0,
+        "station": {
+          "code": "HWH",
+          "name": "Howrah Jn"
+        },
+        "distanceKilometers": 0,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "null",
+          "departure": "1010",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 1,
+        "station": {
+          "code": "HJN",
+          "name": "Howrah Cabin"
+        },
+        "distanceKilometers": 0.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1012",
+          "departure": "1012",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 2,
+        "station": {
+          "code": "HWHG",
+          "name": "Howrah Goods Cabin"
+        },
+        "distanceKilometers": 1.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1012",
+          "departure": "1012",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 3,
+        "station": {
+          "code": "SYAE",
+          "name": "Liluah Sorting Yard Cabin"
+        },
+        "distanceKilometers": 2.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1016",
+          "departure": "1016",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 4,
+        "station": {
+          "code": "LLH",
+          "name": "Liluah"
+        },
+        "distanceKilometers": 4.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1020",
+          "departure": "1020",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 5,
+        "station": {
+          "code": "BEQ",
+          "name": "Belur"
+        },
+        "distanceKilometers": 6.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1022",
+          "departure": "1022",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 6,
+        "station": {
+          "code": "BLY",
+          "name": "Bally"
+        },
+        "distanceKilometers": 8.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1025",
+          "departure": "1025",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 7,
+        "station": {
+          "code": "BLYC",
+          "name": "Bally Chord"
+        },
+        "distanceKilometers": 8.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1025",
+          "departure": "1025",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 8,
+        "station": {
+          "code": "BZL",
+          "name": "Belanagar"
+        },
+        "distanceKilometers": 10.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1026",
+          "departure": "1026",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 9,
+        "station": {
+          "code": "DKAE",
+          "name": "Dankuni Jn"
+        },
+        "distanceKilometers": 14.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1028",
+          "departure": "1028",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 10,
+        "station": {
+          "code": "GBRA",
+          "name": "Gobra"
+        },
+        "distanceKilometers": 16.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1029",
+          "departure": "1029",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 11,
+        "station": {
+          "code": "JOX",
+          "name": "Janai Road"
+        },
+        "distanceKilometers": 20.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1031",
+          "departure": "1031",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 12,
+        "station": {
+          "code": "BPAE",
+          "name": "Begampur"
+        },
+        "distanceKilometers": 22.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1032",
+          "departure": "1032",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 13,
+        "station": {
+          "code": "BRPA",
+          "name": "Baruipara"
+        },
+        "distanceKilometers": 25.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1033",
+          "departure": "1033",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 14,
+        "station": {
+          "code": "MBE",
+          "name": "Mirzapur Bankipur"
+        },
+        "distanceKilometers": 29.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1035",
+          "departure": "1035",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 15,
+        "station": {
+          "code": "BLAE",
+          "name": "Balarambati"
+        },
+        "distanceKilometers": 31.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1036",
+          "departure": "1036",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 16,
+        "station": {
+          "code": "KQU",
+          "name": "Kamarkundu"
+        },
+        "distanceKilometers": 32.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1037",
+          "departure": "1037",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 17,
+        "station": {
+          "code": "MDSE",
+          "name": "Madhusudanpur"
+        },
+        "distanceKilometers": 35.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1038",
+          "departure": "1038",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 18,
+        "station": {
+          "code": "CDAE",
+          "name": "Chandanpur"
+        },
+        "distanceKilometers": 40.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1040",
+          "departure": "1040",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 19,
+        "station": {
+          "code": "PBZ",
+          "name": "Porabazar"
+        },
+        "distanceKilometers": 44.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1042",
+          "departure": "1042",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 20,
+        "station": {
+          "code": "BMAE",
+          "name": "Belmuri"
+        },
+        "distanceKilometers": 46.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1043",
+          "departure": "1043",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 21,
+        "station": {
+          "code": "DNHL",
+          "name": "Dhaniakhali Halt"
+        },
+        "distanceKilometers": 48.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1044",
+          "departure": "1044",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 22,
+        "station": {
+          "code": "SHBC",
+          "name": "Sibaichandi"
+        },
+        "distanceKilometers": 51.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1045",
+          "departure": "1045",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 23,
+        "station": {
+          "code": "CRAE",
+          "name": "Cheragram Block Hut"
+        },
+        "distanceKilometers": 53,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1046",
+          "departure": "1046",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 24,
+        "station": {
+          "code": "HIH",
+          "name": "Hajigarh"
+        },
+        "distanceKilometers": 55.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1047",
+          "departure": "1047",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 25,
+        "station": {
+          "code": "GRAE",
+          "name": "Gurap"
+        },
+        "distanceKilometers": 57.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1048",
+          "departure": "1048",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 26,
+        "station": {
+          "code": "JPQ",
+          "name": "Jhapandanga"
+        },
+        "distanceKilometers": 62.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1051",
+          "departure": "1051",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 27,
+        "station": {
+          "code": "JRAE",
+          "name": "Jaugram"
+        },
+        "distanceKilometers": 64.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1052",
+          "departure": "1052",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 28,
+        "station": {
+          "code": "NBAE",
+          "name": "Nabagram"
+        },
+        "distanceKilometers": 68.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1054",
+          "departure": "1054",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 29,
+        "station": {
+          "code": "MSAE",
+          "name": "Masagram"
+        },
+        "distanceKilometers": 71.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1055",
+          "departure": "1055",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 30,
+        "station": {
+          "code": "CHC",
+          "name": "Chanchai"
+        },
+        "distanceKilometers": 74.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1056",
+          "departure": "1056",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 31,
+        "station": {
+          "code": "PRAE",
+          "name": "Pallaroad"
+        },
+        "distanceKilometers": 77.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1058",
+          "departure": "1058",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 32,
+        "station": {
+          "code": "SKG",
+          "name": "Saktigarh"
+        },
+        "distanceKilometers": 82.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1060",
+          "departure": "1060",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 33,
+        "station": {
+          "code": "GRP",
+          "name": "Gangpur"
+        },
+        "distanceKilometers": 87.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1063",
+          "departure": "1063",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 34,
+        "station": {
+          "code": "BWNU",
+          "name": "Barddhaman UP Yard"
+        },
+        "distanceKilometers": 92.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1065",
+          "departure": "1065",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 35,
+        "station": {
+          "code": "BWN",
+          "name": "Barddhaman Jn"
+        },
+        "distanceKilometers": 94.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1066",
+          "departure": "1066",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 36,
+        "station": {
+          "code": "TIT",
+          "name": "Talit"
+        },
+        "distanceKilometers": 101.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1069",
+          "departure": "1069",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 37,
+        "station": {
+          "code": "KAN",
+          "name": "Khana Jn"
+        },
+        "distanceKilometers": 107.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1072",
+          "departure": "1072",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 38,
+        "station": {
+          "code": "KANL",
+          "name": "Khana Link Cabin"
+        },
+        "distanceKilometers": 110.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1074",
+          "departure": "1074",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 39,
+        "station": {
+          "code": "INCI",
+          "name": "Ishan Chandi Halt"
+        },
+        "distanceKilometers": 111.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1074",
+          "departure": "1074",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 40,
+        "station": {
+          "code": "GLI",
+          "name": "Galsi"
+        },
+        "distanceKilometers": 117.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1078",
+          "departure": "1078",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 41,
+        "station": {
+          "code": "PAJ",
+          "name": "Paraj"
+        },
+        "distanceKilometers": 123.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1082",
+          "departure": "1082",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 42,
+        "station": {
+          "code": "MNAE",
+          "name": "Mankar"
+        },
+        "distanceKilometers": 132.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1087",
+          "departure": "1087",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 43,
+        "station": {
+          "code": "PAN",
+          "name": "Panagarh"
+        },
+        "distanceKilometers": 142.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1093",
+          "departure": "1093",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 44,
+        "station": {
+          "code": "RBH",
+          "name": "Rajbandh"
+        },
+        "distanceKilometers": 149.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1097",
+          "departure": "1097",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 45,
+        "station": {
+          "code": "DGR",
+          "name": "Durgapur"
+        },
+        "distanceKilometers": 158.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1102",
+          "departure": "1102",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 46,
+        "station": {
+          "code": "DCOP",
+          "name": "Durgapur Coke Oven Plant"
+        },
+        "distanceKilometers": 160.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1103",
+          "departure": "1103",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 47,
+        "station": {
+          "code": "OYR",
+          "name": "Waria"
+        },
+        "distanceKilometers": 166.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1107",
+          "departure": "1107",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 48,
+        "station": {
+          "code": "POL",
+          "name": "Pinjrapol"
+        },
+        "distanceKilometers": 168.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1108",
+          "departure": "1108",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 49,
+        "station": {
+          "code": "EOC",
+          "name": "Andal East Outer Cabin"
+        },
+        "distanceKilometers": 170.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1109",
+          "departure": "1109",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 50,
+        "station": {
+          "code": "INTY",
+          "name": "Andal Inter Yard Cabin"
+        },
+        "distanceKilometers": 171.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1110",
+          "departure": "1110",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 51,
+        "station": {
+          "code": "UDLE",
+          "name": "Andal East Cabin"
+        },
+        "distanceKilometers": 172.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1110",
+          "departure": "1110",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 52,
+        "station": {
+          "code": "LCAB",
+          "name": "Andal Link Cabin"
+        },
+        "distanceKilometers": 173.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1111",
+          "departure": "1111",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 53,
+        "station": {
+          "code": "UDL",
+          "name": "Andal Jn"
+        },
+        "distanceKilometers": 175.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1112",
+          "departure": "1112",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 54,
+        "station": {
+          "code": "UDLW",
+          "name": "Andal West Cabin"
+        },
+        "distanceKilometers": 175.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1112",
+          "departure": "1112",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 55,
+        "station": {
+          "code": "ETYD",
+          "name": "Empty Yard"
+        },
+        "distanceKilometers": 177.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1113",
+          "departure": "1113",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 56,
+        "station": {
+          "code": "BQT",
+          "name": "Bakhtarnagar"
+        },
+        "distanceKilometers": 177.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1114",
+          "departure": "1114",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 57,
+        "station": {
+          "code": "RNG",
+          "name": "RaniGanj"
+        },
+        "distanceKilometers": 182.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1116",
+          "departure": "1116",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 58,
+        "station": {
+          "code": "NMC",
+          "name": "Nimcha"
+        },
+        "distanceKilometers": 188.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1120",
+          "departure": "1120",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 59,
+        "station": {
+          "code": "KPK",
+          "name": "Kalipahari"
+        },
+        "distanceKilometers": 195.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1124",
+          "departure": "1124",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 60,
+        "station": {
+          "code": "ASNE",
+          "name": "Asansol East Cabin"
+        },
+        "distanceKilometers": 198.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1126",
+          "departure": "1126",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 61,
+        "station": {
+          "code": "ASN",
+          "name": "Asansol Jn"
+        },
+        "distanceKilometers": 200.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1127",
+          "departure": "1129",
+          "haltMinutes": 2
+        }
+      },
+      {
+        "stopNumber": 62,
+        "station": {
+          "code": "BCQ",
+          "name": "Barachak Jn"
+        },
+        "distanceKilometers": 205.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1135",
+          "departure": "1135",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 63,
+        "station": {
+          "code": "STN",
+          "name": "Sitarampur Jn"
+        },
+        "distanceKilometers": 209.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1139",
+          "departure": "1139",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 64,
+        "station": {
+          "code": "ULT",
+          "name": "Kulti"
+        },
+        "distanceKilometers": 214.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1145",
+          "departure": "1145",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 65,
+        "station": {
+          "code": "BRR",
+          "name": "Barakar"
+        },
+        "distanceKilometers": 217.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1149",
+          "departure": "1149",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 66,
+        "station": {
+          "code": "KMME",
+          "name": "Kumardubi"
+        },
+        "distanceKilometers": 220.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1151",
+          "departure": "1151",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 67,
+        "station": {
+          "code": "MMU",
+          "name": "Mugma"
+        },
+        "distanceKilometers": 224.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1157",
+          "departure": "1157",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 68,
+        "station": {
+          "code": "TNW",
+          "name": "Thapar Nagar"
+        },
+        "distanceKilometers": 230.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1163",
+          "departure": "1163",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 69,
+        "station": {
+          "code": "KAO",
+          "name": "Kalubathan"
+        },
+        "distanceKilometers": 234.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1168",
+          "departure": "1168",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 70,
+        "station": {
+          "code": "CAM",
+          "name": "Chhota Ambana"
+        },
+        "distanceKilometers": 243.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1178",
+          "departure": "1178",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 71,
+        "station": {
+          "code": "PKA",
+          "name": "Pradhankhunta Jn"
+        },
+        "distanceKilometers": 249.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1185",
+          "departure": "1185",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 72,
+        "station": {
+          "code": "DOKM",
+          "name": "Dokra Halt"
+        },
+        "distanceKilometers": 254.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1190",
+          "departure": "1190",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 73,
+        "station": {
+          "code": "DHN",
+          "name": "Dhanbad Jn"
+        },
+        "distanceKilometers": 258.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1195",
+          "departure": "1200",
+          "haltMinutes": 5
+        }
+      },
+      {
+        "stopNumber": 74,
+        "station": {
+          "code": "BHN",
+          "name": "Bhuli"
+        },
+        "distanceKilometers": 262.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1202",
+          "departure": "1202",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 75,
+        "station": {
+          "code": "TET",
+          "name": "Tetulmari"
+        },
+        "distanceKilometers": 267.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1206",
+          "departure": "1206",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 76,
+        "station": {
+          "code": "NPJE",
+          "name": "Nichitpur"
+        },
+        "distanceKilometers": 273.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1209",
+          "departure": "1209",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 77,
+        "station": {
+          "code": "MRQ",
+          "name": "Matari"
+        },
+        "distanceKilometers": 279,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1213",
+          "departure": "1213",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 78,
+        "station": {
+          "code": "RIBP",
+          "name": "Ramakunda Halt"
+        },
+        "distanceKilometers": 283,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1215",
+          "departure": "1215",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 79,
+        "station": {
+          "code": "GMO",
+          "name": "NSCB Jn Gomoh"
+        },
+        "distanceKilometers": 288.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1219",
+          "departure": "1219",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 80,
+        "station": {
+          "code": "BLME",
+          "name": "Bholidih"
+        },
+        "distanceKilometers": 293.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1222",
+          "departure": "1222",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 81,
+        "station": {
+          "code": "NMG",
+          "name": "Nimiaghat"
+        },
+        "distanceKilometers": 298.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1225",
+          "departure": "1225",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 82,
+        "station": {
+          "code": "PNME",
+          "name": "Parasnath"
+        },
+        "distanceKilometers": 306.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1230",
+          "departure": "1232",
+          "haltMinutes": 2
+        }
+      },
+      {
+        "stopNumber": 83,
+        "station": {
+          "code": "CEME",
+          "name": "Chegro"
+        },
+        "distanceKilometers": 310.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1235",
+          "departure": "1235",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 84,
+        "station": {
+          "code": "CDB",
+          "name": "Chaudhribandh"
+        },
+        "distanceKilometers": 315.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1239",
+          "departure": "1239",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 85,
+        "station": {
+          "code": "KRMB",
+          "name": "Karmabad"
+        },
+        "distanceKilometers": 319.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1242",
+          "departure": "1242",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 86,
+        "station": {
+          "code": "CCK",
+          "name": "Chichaki"
+        },
+        "distanceKilometers": 323.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1246",
+          "departure": "1246",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 87,
+        "station": {
+          "code": "GRBH",
+          "name": "Garea Bihar"
+        },
+        "distanceKilometers": 328.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1249",
+          "departure": "1249",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 88,
+        "station": {
+          "code": "HZD",
+          "name": "Hazaribagh Road"
+        },
+        "distanceKilometers": 333.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1253",
+          "departure": "1253",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 89,
+        "station": {
+          "code": "KSHR",
+          "name": "Keshwari"
+        },
+        "distanceKilometers": 339.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1258",
+          "departure": "1258",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 90,
+        "station": {
+          "code": "CBH",
+          "name": "Chaube"
+        },
+        "distanceKilometers": 344.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1262",
+          "departure": "1262",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 91,
+        "station": {
+          "code": "DSME",
+          "name": "Dasara"
+        },
+        "distanceKilometers": 349.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1266",
+          "departure": "1266",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 92,
+        "station": {
+          "code": "PSB",
+          "name": "Parsabad"
+        },
+        "distanceKilometers": 355.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1271",
+          "departure": "1271",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 93,
+        "station": {
+          "code": "YDD",
+          "name": "Yadudih"
+        },
+        "distanceKilometers": 361.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1275",
+          "departure": "1275",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 94,
+        "station": {
+          "code": "SMND",
+          "name": "Sarmatanr"
+        },
+        "distanceKilometers": 365,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1278",
+          "departure": "1278",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 95,
+        "station": {
+          "code": "HRE",
+          "name": "Hirodih"
+        },
+        "distanceKilometers": 372.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1284",
+          "departure": "1284",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 96,
+        "station": {
+          "code": "LRB",
+          "name": "Larabad Block Hut"
+        },
+        "distanceKilometers": 377.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1288",
+          "departure": "1288",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 97,
+        "station": {
+          "code": "KQR",
+          "name": "Koderma Jn"
+        },
+        "distanceKilometers": 382,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1292",
+          "departure": "1292",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 98,
+        "station": {
+          "code": "GJD",
+          "name": "Gujhandi"
+        },
+        "distanceKilometers": 392,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1300",
+          "departure": "1300",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 99,
+        "station": {
+          "code": "LBZ",
+          "name": "Lalbag Block Hut"
+        },
+        "distanceKilometers": 394,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1301",
+          "departure": "1301",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 100,
+        "station": {
+          "code": "DLW",
+          "name": "Dilwa"
+        },
+        "distanceKilometers": 398.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1305",
+          "departure": "1305",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 101,
+        "station": {
+          "code": "NGY",
+          "name": "Nath Ganj"
+        },
+        "distanceKilometers": 404.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1310",
+          "departure": "1310",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 102,
+        "station": {
+          "code": "BSCP",
+          "name": "Baskatwa B H"
+        },
+        "distanceKilometers": 406.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1311",
+          "departure": "1311",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 103,
+        "station": {
+          "code": "YGM",
+          "name": "Yadugram Block Hut"
+        },
+        "distanceKilometers": 410.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1314",
+          "departure": "1314",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 104,
+        "station": {
+          "code": "GAP",
+          "name": "Gurpa"
+        },
+        "distanceKilometers": 414,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1317",
+          "departure": "1317",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 105,
+        "station": {
+          "code": "PRP",
+          "name": "Paharpur"
+        },
+        "distanceKilometers": 425.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1326",
+          "departure": "1326",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 106,
+        "station": {
+          "code": "BNSL",
+          "name": "Bansinala Halt"
+        },
+        "distanceKilometers": 432.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1331",
+          "departure": "1331",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 107,
+        "station": {
+          "code": "TKN",
+          "name": "Tankuppa"
+        },
+        "distanceKilometers": 438.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1336",
+          "departure": "1336",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 108,
+        "station": {
+          "code": "BNF",
+          "name": "Bandhua"
+        },
+        "distanceKilometers": 445.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1342",
+          "departure": "1342",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 109,
+        "station": {
+          "code": "MPO",
+          "name": "Manpur Jn"
+        },
+        "distanceKilometers": 453,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1348",
+          "departure": "1348",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 110,
+        "station": {
+          "code": "SICY",
+          "name": "Shaheed Ishwar Chowdhary Halt"
+        },
+        "distanceKilometers": 454.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1349",
+          "departure": "1349",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 111,
+        "station": {
+          "code": "GAYA",
+          "name": "Gaya Jn"
+        },
+        "distanceKilometers": 458.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1352",
+          "departure": "1355",
+          "haltMinutes": 3
+        }
+      },
+      {
+        "stopNumber": 112,
+        "station": {
+          "code": "WCB",
+          "name": "Gaya West Cabin"
+        },
+        "distanceKilometers": 461.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1357",
+          "departure": "1357",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 113,
+        "station": {
+          "code": "KSTA",
+          "name": "Kastha"
+        },
+        "distanceKilometers": 466.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1360",
+          "departure": "1360",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 114,
+        "station": {
+          "code": "PRY",
+          "name": "Paraiya"
+        },
+        "distanceKilometers": 473.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1365",
+          "departure": "1365",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 115,
+        "station": {
+          "code": "GRRU",
+          "name": "Guraru"
+        },
+        "distanceKilometers": 479.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1368",
+          "departure": "1368",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 116,
+        "station": {
+          "code": "IMGE",
+          "name": "Ismailpur"
+        },
+        "distanceKilometers": 486.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1372",
+          "departure": "1372",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 117,
+        "station": {
+          "code": "RFJ",
+          "name": "RafiGanj"
+        },
+        "distanceKilometers": 495.9,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1378",
+          "departure": "1378",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 118,
+        "station": {
+          "code": "DORD",
+          "name": "Deo Road"
+        },
+        "distanceKilometers": 503,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1382",
+          "departure": "1382",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 119,
+        "station": {
+          "code": "JHN",
+          "name": "Jakhim"
+        },
+        "distanceKilometers": 506.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1385",
+          "departure": "1385",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 120,
+        "station": {
+          "code": "BHKH",
+          "name": "Baghoi Kusa"
+        },
+        "distanceKilometers": 513.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1389",
+          "departure": "1389",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 121,
+        "station": {
+          "code": "PES",
+          "name": "Phesar"
+        },
+        "distanceKilometers": 517.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1391",
+          "departure": "1391",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 122,
+        "station": {
+          "code": "DKMN",
+          "name": "Deoria Kurhma Naresh Halt"
+        },
+        "distanceKilometers": 520,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1393",
+          "departure": "1393",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 123,
+        "station": {
+          "code": "AUBR",
+          "name": "Anugraha Narayan Road"
+        },
+        "distanceKilometers": 526.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1397",
+          "departure": "1397",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 124,
+        "station": {
+          "code": "CPBH",
+          "name": "Chiraila"
+        },
+        "distanceKilometers": 531.8,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1400",
+          "departure": "1400",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 125,
+        "station": {
+          "code": "FOCS",
+          "name": "Son Nagar Flyover Cabin"
+        },
+        "distanceKilometers": 537,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1403",
+          "departure": "1403",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 126,
+        "station": {
+          "code": "SEB",
+          "name": "Son Nagar Jn"
+        },
+        "distanceKilometers": 537.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1403",
+          "departure": "1403",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 127,
+        "station": {
+          "code": "ADSR",
+          "name": "Advance Starter"
+        },
+        "distanceKilometers": 542.4,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1406",
+          "departure": "1406",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 128,
+        "station": {
+          "code": "DOS",
+          "name": "Dehri On Sone"
+        },
+        "distanceKilometers": 543.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1407",
+          "departure": "1407",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 129,
+        "station": {
+          "code": "PHE",
+          "name": "Pahaleja"
+        },
+        "distanceKilometers": 547.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1410",
+          "departure": "1410",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 130,
+        "station": {
+          "code": "KWD",
+          "name": "Karwandia"
+        },
+        "distanceKilometers": 553.6,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1413",
+          "departure": "1413",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 131,
+        "station": {
+          "code": "XX-SSMC",
+          "name": "Sasaram Outer Cabin A"
+        },
+        "distanceKilometers": 560.2,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1417",
+          "departure": "1417",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 132,
+        "station": {
+          "code": "SSM",
+          "name": "Sasaram Jn"
+        },
+        "distanceKilometers": 561.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1418",
+          "departure": "1418",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 133,
+        "station": {
+          "code": "KMGE",
+          "name": "Kumahu"
+        },
+        "distanceKilometers": 569.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1423",
+          "departure": "1423",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 134,
+        "station": {
+          "code": "SSG",
+          "name": "Shiu Sagar Road"
+        },
+        "distanceKilometers": 574.7,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1426",
+          "departure": "1426",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 135,
+        "station": {
+          "code": "KVD",
+          "name": "Khurmabad"
+        },
+        "distanceKilometers": 580.1,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1429",
+          "departure": "1429",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 136,
+        "station": {
+          "code": "KTQ",
+          "name": "Kudra"
+        },
+        "distanceKilometers": 586.5,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1433",
+          "departure": "1433",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 137,
+        "station": {
+          "code": "PSE",
+          "name": "Pusauli"
+        },
+        "distanceKilometers": 595.3,
+        "journeyDay": 1,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "1439",
+          "departure": "1439",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 138,
+        "station": {
+          "code": "MTGE",
+          "name": "Muthani"
+        },
+        "distanceKilometers": 603.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "3",
+          "departure": "3",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 139,
+        "station": {
+          "code": "BBU",
+          "name": "Bhabua Road"
+        },
+        "distanceKilometers": 608.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "7",
+          "departure": "7",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 140,
+        "station": {
+          "code": "DGO",
+          "name": "Durgauti"
+        },
+        "distanceKilometers": 617.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "12",
+          "departure": "12",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 141,
+        "station": {
+          "code": "DCX",
+          "name": "Dhanaichha"
+        },
+        "distanceKilometers": 623,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "15",
+          "departure": "15",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 142,
+        "station": {
+          "code": "KMS",
+          "name": "Karamnasa"
+        },
+        "distanceKilometers": 629.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "19",
+          "departure": "19",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 143,
+        "station": {
+          "code": "SYJ",
+          "name": "Saidraja"
+        },
+        "distanceKilometers": 637.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "24",
+          "departure": "24",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 144,
+        "station": {
+          "code": "CDMR",
+          "name": "Chandauli Majhwar"
+        },
+        "distanceKilometers": 645.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "29",
+          "departure": "29",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 145,
+        "station": {
+          "code": "GAQ",
+          "name": "Ganj Khawaja"
+        },
+        "distanceKilometers": 654.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "35",
+          "departure": "35",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 146,
+        "station": {
+          "code": "FOCM",
+          "name": "Flyover Cabin Mughal Sarai"
+        },
+        "distanceKilometers": 656.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "36",
+          "departure": "36",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 147,
+        "station": {
+          "code": "ICBN",
+          "name": "Mughal Sarai ICBN Cabin"
+        },
+        "distanceKilometers": 657.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "37",
+          "departure": "37",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 148,
+        "station": {
+          "code": "JTHT",
+          "name": "Jn Hut DDU"
+        },
+        "distanceKilometers": 658.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "37",
+          "departure": "37",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 149,
+        "station": {
+          "code": "MGSO",
+          "name": "Mughal Sarai Outer Cabin"
+        },
+        "distanceKilometers": 659.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "37",
+          "departure": "37",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 150,
+        "station": {
+          "code": "MGMY",
+          "name": "Mughal Sarai Marshalling Yard"
+        },
+        "distanceKilometers": 660.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "39",
+          "departure": "39",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 151,
+        "station": {
+          "code": "DDU",
+          "name": "Pt DD Upadhyaya Jn"
+        },
+        "distanceKilometers": 663.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "40",
+          "departure": "50",
+          "haltMinutes": 10
+        }
+      },
+      {
+        "stopNumber": 152,
+        "station": {
+          "code": "NEWC",
+          "name": "New West Cabin"
+        },
+        "distanceKilometers": 664.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "51",
+          "departure": "51",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 153,
+        "station": {
+          "code": "AVCD",
+          "name": "Avoiding Cabin"
+        },
+        "distanceKilometers": 668,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "55",
+          "departure": "55",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 154,
+        "station": {
+          "code": "JEP",
+          "name": "Jeonathpur"
+        },
+        "distanceKilometers": 671.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "59",
+          "departure": "59",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 155,
+        "station": {
+          "code": "NPBR",
+          "name": "Narayanpur Bazar"
+        },
+        "distanceKilometers": 676.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "65",
+          "departure": "65",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 156,
+        "station": {
+          "code": "KYT",
+          "name": "Kailahat"
+        },
+        "distanceKilometers": 685.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "75",
+          "departure": "75",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 157,
+        "station": {
+          "code": "CAR",
+          "name": "Chunar Jn"
+        },
+        "distanceKilometers": 695.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "86",
+          "departure": "86",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 158,
+        "station": {
+          "code": "DAP",
+          "name": "Dagmagpur"
+        },
+        "distanceKilometers": 702.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "94",
+          "departure": "94",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 159,
+        "station": {
+          "code": "PRE",
+          "name": "Pahara"
+        },
+        "distanceKilometers": 710.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "102",
+          "departure": "102",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 160,
+        "station": {
+          "code": "JHG",
+          "name": "Jhingura"
+        },
+        "distanceKilometers": 718,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "111",
+          "departure": "111",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 161,
+        "station": {
+          "code": "MZP",
+          "name": "Mirzapur"
+        },
+        "distanceKilometers": 726.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "120",
+          "departure": "120",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 162,
+        "station": {
+          "code": "BDL",
+          "name": "Vindhyachal"
+        },
+        "distanceKilometers": 733.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "124",
+          "departure": "124",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 163,
+        "station": {
+          "code": "BEO",
+          "name": "Birohe"
+        },
+        "distanceKilometers": 738.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "126",
+          "departure": "126",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 164,
+        "station": {
+          "code": "GAE",
+          "name": "Gaipura"
+        },
+        "distanceKilometers": 745.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "129",
+          "departure": "129",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 165,
+        "station": {
+          "code": "JIA",
+          "name": "Jigna"
+        },
+        "distanceKilometers": 753,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "133",
+          "departure": "133",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 166,
+        "station": {
+          "code": "MNF",
+          "name": "Manda Road"
+        },
+        "distanceKilometers": 761.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "137",
+          "departure": "137",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 167,
+        "station": {
+          "code": "UND",
+          "name": "Unchdih"
+        },
+        "distanceKilometers": 769.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "141",
+          "departure": "141",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 168,
+        "station": {
+          "code": "MJA",
+          "name": "Meja Road"
+        },
+        "distanceKilometers": 777.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "145",
+          "departure": "145",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 169,
+        "station": {
+          "code": "BEP",
+          "name": "Bheerpur"
+        },
+        "distanceKilometers": 788.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "150",
+          "departure": "150",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 170,
+        "station": {
+          "code": "KCN",
+          "name": "Karchana"
+        },
+        "distanceKilometers": 797.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "154",
+          "departure": "154",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 171,
+        "station": {
+          "code": "PCOI",
+          "name": "Prayagraj Chheoki Jn"
+        },
+        "distanceKilometers": 806.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "159",
+          "departure": "159",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 172,
+        "station": {
+          "code": "NYN",
+          "name": "Naini Jn"
+        },
+        "distanceKilometers": 808.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "160",
+          "departure": "160",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 173,
+        "station": {
+          "code": "PRYJ",
+          "name": "Prayagraj Jn"
+        },
+        "distanceKilometers": 815.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "163",
+          "departure": "165",
+          "haltMinutes": 2
+        }
+      },
+      {
+        "stopNumber": 174,
+        "station": {
+          "code": "SFG",
+          "name": "Subedarganj"
+        },
+        "distanceKilometers": 819.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "167",
+          "departure": "167",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 175,
+        "station": {
+          "code": "BMU",
+          "name": "Bamhrauli"
+        },
+        "distanceKilometers": 824.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "171",
+          "departure": "171",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 176,
+        "station": {
+          "code": "MRE",
+          "name": "Manauri"
+        },
+        "distanceKilometers": 833.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "176",
+          "departure": "176",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 177,
+        "station": {
+          "code": "SYWN",
+          "name": "Saiyid Sarawan"
+        },
+        "distanceKilometers": 837.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "179",
+          "departure": "179",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 178,
+        "station": {
+          "code": "MNJ",
+          "name": "ManoharGanj"
+        },
+        "distanceKilometers": 845.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "184",
+          "departure": "184",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 179,
+        "station": {
+          "code": "BRE",
+          "name": "Bharwari"
+        },
+        "distanceKilometers": 853,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "189",
+          "departure": "189",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 180,
+        "station": {
+          "code": "BDNP",
+          "name": "Bidanpur"
+        },
+        "distanceKilometers": 856.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "191",
+          "departure": "191",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 181,
+        "station": {
+          "code": "SJT",
+          "name": "Shujaatpur"
+        },
+        "distanceKilometers": 863.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "195",
+          "departure": "195",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 182,
+        "station": {
+          "code": "SRO",
+          "name": "Sirathu"
+        },
+        "distanceKilometers": 872.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "202",
+          "departure": "202",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 183,
+        "station": {
+          "code": "ASCE",
+          "name": "Athsarai"
+        },
+        "distanceKilometers": 879.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "206",
+          "departure": "206",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 184,
+        "station": {
+          "code": "KUW",
+          "name": "Kanwar"
+        },
+        "distanceKilometers": 885,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "209",
+          "departure": "209",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 185,
+        "station": {
+          "code": "KTCE",
+          "name": "Katoghan"
+        },
+        "distanceKilometers": 891,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "213",
+          "departure": "213",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 186,
+        "station": {
+          "code": "KGA",
+          "name": "Khaga"
+        },
+        "distanceKilometers": 898.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "218",
+          "departure": "218",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 187,
+        "station": {
+          "code": "SNIE",
+          "name": "Sathnaraini"
+        },
+        "distanceKilometers": 905.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "223",
+          "departure": "223",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 188,
+        "station": {
+          "code": "RUB",
+          "name": "Rasulabad"
+        },
+        "distanceKilometers": 912.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "227",
+          "departure": "227",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 189,
+        "station": {
+          "code": "FYZ",
+          "name": "Faizullapur"
+        },
+        "distanceKilometers": 921.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "233",
+          "departure": "233",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 190,
+        "station": {
+          "code": "RAMA",
+          "name": "Ramva"
+        },
+        "distanceKilometers": 926.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "236",
+          "departure": "236",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 191,
+        "station": {
+          "code": "FTP",
+          "name": "Fatehpur"
+        },
+        "distanceKilometers": 932.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "240",
+          "departure": "240",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 192,
+        "station": {
+          "code": "KKS",
+          "name": "Kurasti Kalan"
+        },
+        "distanceKilometers": 939.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "245",
+          "departure": "245",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 193,
+        "station": {
+          "code": "MWH",
+          "name": "Malwan"
+        },
+        "distanceKilometers": 948.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "250",
+          "departure": "250",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 194,
+        "station": {
+          "code": "KSQ",
+          "name": "Kanspur Gugauli"
+        },
+        "distanceKilometers": 956.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "255",
+          "departure": "255",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 195,
+        "station": {
+          "code": "BKO",
+          "name": "Bindki Road"
+        },
+        "distanceKilometers": 964,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "260",
+          "departure": "260",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 196,
+        "station": {
+          "code": "AUNG",
+          "name": "Aung"
+        },
+        "distanceKilometers": 969.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "264",
+          "departure": "264",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 197,
+        "station": {
+          "code": "KBN",
+          "name": "Karbigwan"
+        },
+        "distanceKilometers": 976.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "268",
+          "departure": "268",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 198,
+        "station": {
+          "code": "PMPR",
+          "name": "Prempur"
+        },
+        "distanceKilometers": 981.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "272",
+          "departure": "272",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 199,
+        "station": {
+          "code": "SSL",
+          "name": "Sirsaul"
+        },
+        "distanceKilometers": 987.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "275",
+          "departure": "275",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 200,
+        "station": {
+          "code": "RXM",
+          "name": "Rooma"
+        },
+        "distanceKilometers": 994.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "280",
+          "departure": "280",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 201,
+        "station": {
+          "code": "CHK",
+          "name": "Chakeri"
+        },
+        "distanceKilometers": 998.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "282",
+          "departure": "282",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 202,
+        "station": {
+          "code": "CNBI",
+          "name": "Chandari"
+        },
+        "distanceKilometers": 1005.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "287",
+          "departure": "287",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 203,
+        "station": {
+          "code": "CNB",
+          "name": "Kanpur Ctrl"
+        },
+        "distanceKilometers": 1010.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "290",
+          "departure": "295",
+          "haltMinutes": 5
+        }
+      },
+      {
+        "stopNumber": 204,
+        "station": {
+          "code": "GMC",
+          "name": "Kanpur Goods Marshalling Yard"
+        },
+        "distanceKilometers": 1011.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "296",
+          "departure": "296",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 205,
+        "station": {
+          "code": "CNJO",
+          "name": "Juhi Outer Cabin"
+        },
+        "distanceKilometers": 1012.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "296",
+          "departure": "296",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 206,
+        "station": {
+          "code": "GOY",
+          "name": "Govindpuri"
+        },
+        "distanceKilometers": 1014.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "298",
+          "departure": "298",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 207,
+        "station": {
+          "code": "PNKD",
+          "name": "Panki Dham"
+        },
+        "distanceKilometers": 1021.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "303",
+          "departure": "303",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 208,
+        "station": {
+          "code": "BPU",
+          "name": "Bhaupur"
+        },
+        "distanceKilometers": 1033,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "311",
+          "departure": "311",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 209,
+        "station": {
+          "code": "MTO",
+          "name": "Maitha"
+        },
+        "distanceKilometers": 1043,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "318",
+          "departure": "318",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 210,
+        "station": {
+          "code": "RMW",
+          "name": "Roshan Mau"
+        },
+        "distanceKilometers": 1047,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "321",
+          "departure": "321",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 211,
+        "station": {
+          "code": "PTRA",
+          "name": "Patra"
+        },
+        "distanceKilometers": 1049.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "323",
+          "departure": "323",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 212,
+        "station": {
+          "code": "RURA",
+          "name": "Rura"
+        },
+        "distanceKilometers": 1054.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "326",
+          "departure": "326",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 213,
+        "station": {
+          "code": "AAP",
+          "name": "Ambiapur"
+        },
+        "distanceKilometers": 1063.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "332",
+          "departure": "332",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 214,
+        "station": {
+          "code": "JJK",
+          "name": "Jhinjhak"
+        },
+        "distanceKilometers": 1073.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "339",
+          "departure": "339",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 215,
+        "station": {
+          "code": "PJY",
+          "name": "Parjani"
+        },
+        "distanceKilometers": 1079.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "344",
+          "departure": "344",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 216,
+        "station": {
+          "code": "KNS",
+          "name": "Kanchausi"
+        },
+        "distanceKilometers": 1084.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "347",
+          "departure": "347",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 217,
+        "station": {
+          "code": "PHD",
+          "name": "Phaphund"
+        },
+        "distanceKilometers": 1093.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "353",
+          "departure": "353",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 218,
+        "station": {
+          "code": "PATA",
+          "name": "Pata"
+        },
+        "distanceKilometers": 1101.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "359",
+          "departure": "359",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 219,
+        "station": {
+          "code": "ULD",
+          "name": "Achalda"
+        },
+        "distanceKilometers": 1110.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "365",
+          "departure": "365",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 220,
+        "station": {
+          "code": "GHSR",
+          "name": "Ghasara Halt"
+        },
+        "distanceKilometers": 1115.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "369",
+          "departure": "369",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 221,
+        "station": {
+          "code": "SHW",
+          "name": "Samhon"
+        },
+        "distanceKilometers": 1119.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "372",
+          "departure": "372",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 222,
+        "station": {
+          "code": "BNT",
+          "name": "Bharthana"
+        },
+        "distanceKilometers": 1129.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "379",
+          "departure": "379",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 223,
+        "station": {
+          "code": "EKL",
+          "name": "Ekdil"
+        },
+        "distanceKilometers": 1139.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "386",
+          "departure": "386",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 224,
+        "station": {
+          "code": "ETW",
+          "name": "Etawah Jn"
+        },
+        "distanceKilometers": 1149.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "393",
+          "departure": "393",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 225,
+        "station": {
+          "code": "SB",
+          "name": "Sarai Bhopat"
+        },
+        "distanceKilometers": 1158,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "399",
+          "departure": "399",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 226,
+        "station": {
+          "code": "JGR",
+          "name": "Jaswantnagar"
+        },
+        "distanceKilometers": 1165.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "404",
+          "departure": "404",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 227,
+        "station": {
+          "code": "BBL",
+          "name": "Balrai"
+        },
+        "distanceKilometers": 1174.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "410",
+          "departure": "410",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 228,
+        "station": {
+          "code": "BDN",
+          "name": "Bhadan"
+        },
+        "distanceKilometers": 1185.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "418",
+          "departure": "418",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 229,
+        "station": {
+          "code": "KAA",
+          "name": "Kaurara"
+        },
+        "distanceKilometers": 1194.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "424",
+          "departure": "424",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 230,
+        "station": {
+          "code": "SKB",
+          "name": "Shikohabad Jn"
+        },
+        "distanceKilometers": 1205.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "432",
+          "departure": "432",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 231,
+        "station": {
+          "code": "MNR",
+          "name": "Makkhanpur"
+        },
+        "distanceKilometers": 1214.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "439",
+          "departure": "439",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 232,
+        "station": {
+          "code": "FZD",
+          "name": "Firozabad"
+        },
+        "distanceKilometers": 1225,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "446",
+          "departure": "446",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 233,
+        "station": {
+          "code": "HNG",
+          "name": "Hirangaon"
+        },
+        "distanceKilometers": 1232.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "451",
+          "departure": "451",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 234,
+        "station": {
+          "code": "TDL",
+          "name": "Tundla Jn"
+        },
+        "distanceKilometers": 1241.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "457",
+          "departure": "457",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 235,
+        "station": {
+          "code": "WSC",
+          "name": "West Side Cabin Tundla"
+        },
+        "distanceKilometers": 1246.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "461",
+          "departure": "461",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 236,
+        "station": {
+          "code": "YY-MTI",
+          "name": "Mitawali South Cabin"
+        },
+        "distanceKilometers": 1246.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "461",
+          "departure": "461",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 237,
+        "station": {
+          "code": "MTI",
+          "name": "Mitawali"
+        },
+        "distanceKilometers": 1248.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "462",
+          "departure": "462",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 238,
+        "station": {
+          "code": "BRN",
+          "name": "Barhan Jn"
+        },
+        "distanceKilometers": 1256.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "468",
+          "departure": "468",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 239,
+        "station": {
+          "code": "CMR",
+          "name": "Chamrola"
+        },
+        "distanceKilometers": 1263,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "473",
+          "departure": "473",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 240,
+        "station": {
+          "code": "JLS",
+          "name": "Jalesar Road"
+        },
+        "distanceKilometers": 1269.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "477",
+          "departure": "477",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 241,
+        "station": {
+          "code": "PORA",
+          "name": "Pora"
+        },
+        "distanceKilometers": 1278.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "484",
+          "departure": "484",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 242,
+        "station": {
+          "code": "HRS",
+          "name": "Hathras Jn"
+        },
+        "distanceKilometers": 1289.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "491",
+          "departure": "491",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 243,
+        "station": {
+          "code": "SNS",
+          "name": "Sasni"
+        },
+        "distanceKilometers": 1298.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "498",
+          "departure": "498",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 244,
+        "station": {
+          "code": "MXK",
+          "name": "Mandrak"
+        },
+        "distanceKilometers": 1305.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "503",
+          "departure": "503",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 245,
+        "station": {
+          "code": "DAQ",
+          "name": "Daud Khan"
+        },
+        "distanceKilometers": 1312.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "507",
+          "departure": "507",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 246,
+        "station": {
+          "code": "ALJN",
+          "name": "Aligarh Jn"
+        },
+        "distanceKilometers": 1319.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "513",
+          "departure": "513",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 247,
+        "station": {
+          "code": "MWUE",
+          "name": "Mahrawal"
+        },
+        "distanceKilometers": 1326,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "517",
+          "departure": "517",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 248,
+        "station": {
+          "code": "KLA",
+          "name": "Kulwa"
+        },
+        "distanceKilometers": 1331.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "521",
+          "departure": "521",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 249,
+        "station": {
+          "code": "SOM",
+          "name": "Somna"
+        },
+        "distanceKilometers": 1341.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "528",
+          "departure": "528",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 250,
+        "station": {
+          "code": "DAR",
+          "name": "Danwar"
+        },
+        "distanceKilometers": 1352,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "535",
+          "departure": "535",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 251,
+        "station": {
+          "code": "KAMP",
+          "name": "Kamalpur"
+        },
+        "distanceKilometers": 1357,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "539",
+          "departure": "539",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 252,
+        "station": {
+          "code": "KRJ",
+          "name": "Khurja Jn"
+        },
+        "distanceKilometers": 1363.1,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "543",
+          "departure": "543",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 253,
+        "station": {
+          "code": "SKQ",
+          "name": "Sikandarpur"
+        },
+        "distanceKilometers": 1368.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "547",
+          "departure": "547",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 254,
+        "station": {
+          "code": "GNRL",
+          "name": "Gangraul Halt"
+        },
+        "distanceKilometers": 1373.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "550",
+          "departure": "550",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 255,
+        "station": {
+          "code": "CHL",
+          "name": "Chola"
+        },
+        "distanceKilometers": 1377.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "553",
+          "departure": "553",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 256,
+        "station": {
+          "code": "WAIR",
+          "name": "Wair"
+        },
+        "distanceKilometers": 1382.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "557",
+          "departure": "557",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 257,
+        "station": {
+          "code": "FPMP",
+          "name": "Fatehpur Makrandpur"
+        },
+        "distanceKilometers": 1386.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "560",
+          "departure": "560",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 258,
+        "station": {
+          "code": "DKDE",
+          "name": "Dankaur"
+        },
+        "distanceKilometers": 1392.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "563",
+          "departure": "563",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 259,
+        "station": {
+          "code": "AJR",
+          "name": "Ajaibpur"
+        },
+        "distanceKilometers": 1400,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "569",
+          "departure": "569",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 260,
+        "station": {
+          "code": "BRKY",
+          "name": "Boraki"
+        },
+        "distanceKilometers": 1404.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "572",
+          "departure": "572",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 261,
+        "station": {
+          "code": "DER",
+          "name": "Dadri"
+        },
+        "distanceKilometers": 1409.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "575",
+          "departure": "575",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 262,
+        "station": {
+          "code": "MIU",
+          "name": "Maripat"
+        },
+        "distanceKilometers": 1415.9,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "580",
+          "departure": "580",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 263,
+        "station": {
+          "code": "CPYZ",
+          "name": "Chipyana Buzurg"
+        },
+        "distanceKilometers": 1421.4,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "584",
+          "departure": "584",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 264,
+        "station": {
+          "code": "GZB",
+          "name": "Ghaziabad Jn"
+        },
+        "distanceKilometers": 1425.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "587",
+          "departure": "587",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 265,
+        "station": {
+          "code": "SBB",
+          "name": "Sahibabad Jn"
+        },
+        "distanceKilometers": 1432.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "592",
+          "departure": "592",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 266,
+        "station": {
+          "code": "DSBP",
+          "name": "Shahdara B Panel"
+        },
+        "distanceKilometers": 1435.7,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "594",
+          "departure": "594",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 267,
+        "station": {
+          "code": "CNJ",
+          "name": "Chandra Nagar Halt"
+        },
+        "distanceKilometers": 1436.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "595",
+          "departure": "595",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 268,
+        "station": {
+          "code": "ANVR",
+          "name": "Anand Vihar"
+        },
+        "distanceKilometers": 1438.3,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "596",
+          "departure": "596",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 269,
+        "station": {
+          "code": "MWC",
+          "name": "Mandawali Chandra Vihar"
+        },
+        "distanceKilometers": 1441.8,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "599",
+          "departure": "599",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 270,
+        "station": {
+          "code": "TKJ",
+          "name": "Tilak Bridge"
+        },
+        "distanceKilometers": 1448.2,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "603",
+          "departure": "603",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 271,
+        "station": {
+          "code": "CSB",
+          "name": "Shivaji Bridge"
+        },
+        "distanceKilometers": 1449.5,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "604",
+          "departure": "604",
+          "haltMinutes": 0
+        }
+      },
+      {
+        "stopNumber": 272,
+        "station": {
+          "code": "NDLS",
+          "name": "New Delhi"
+        },
+        "distanceKilometers": 1450.6,
+        "journeyDay": 2,
+        "isLocoReversal": false,
+        "runDays": "",
+        "schedule": {
+          "arrival": "605",
+          "departure": "null",
+          "haltMinutes": 0
+        }
+      }
+    ]
+  },
+  "meta": {
+    "timestamp": "2025-09-17T14:35:10.014Z",
+    "traceId": "03f621c6-8111-4f26-ac6c-cd9f8fa8d7db",
+    "executionTime": 166,
+    "service": "TrainAPI_V1",
+    "method": "getTrainSchedule"
+  }
+}

@@ -1,0 +1,85 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 98.5%;
+    --foreground: 240 10% 3.9%;
+
+    --card: 240 10% 98.5%;
+    --card-foreground: 240 10% 3.9%;
+ 
+    --popover: 240 10% 98.5%;
+    --popover-foreground: 240 10% 3.9%;
+ 
+    --primary: 245 83% 60%; /* Indigo */
+    --primary-foreground: 250 5% 98.5%;
+ 
+    --secondary: 240 5% 96%;
+    --secondary-foreground: 240 5.9% 10%;
+ 
+    --muted: 240 5% 96%;
+    --muted-foreground: 240 3.8% 46.1%;
+ 
+    --accent: 262 83% 66%; /* Violet */
+    --accent-foreground: 270 5.9% 10%;
+ 
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 245 83% 60%;
+ 
+    --radius: 0.5rem;
+
+    --background-light-indigo: 246 30% 96%; /* Very light indigo for background */
+  }
+ 
+  .dark {
+    --background: 240 10% 3.9%;
+    --foreground: 250 5% 98.5%;
+ 
+    --card: 240 10% 3.9%;
+    --card-foreground: 250 5% 98.5%;
+ 
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 250 5% 98.5%;
+ 
+    --primary: 245 83% 60%; /* Indigo */
+    --primary-foreground: 250 5% 98.5%;
+ 
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 250 5% 98.5%;
+ 
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+ 
+    --accent: 262 83% 66%; /* Violet */
+    --accent-foreground: 270 5% 98.5%;
+ 
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+ 
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 245 83% 60%;
+
+    --background-light-indigo: 240 10% 5%; /* Darker equivalent for dark mode */
+  }
+}
+ 
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Inter', sans-serif;
+  }
+}
+
+.leaflet-container {
+    background-color: hsl(var(--background-light-indigo));
+}
