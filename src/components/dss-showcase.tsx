@@ -10,7 +10,7 @@ import {
   CardTitle,
 } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
-import { Bot, Zap, SkipForward, Ban, Play, Percent } from 'lucide-react';
+import { Bot, Zap, SkipForward, Ban, Play, Percent, LineChart, Waypoints, AlertTriangle } from 'lucide-react';
 import { Button } from './ui/button';
 import { ScrollArea, ScrollBar } from './ui/scroll-area';
 import { Progress } from './ui/progress';
@@ -92,7 +92,7 @@ const getActionBadgeVariant = (action: string) => {
 
 export function DssShowcase() {
   return (
-    <Card className="w-full bg-secondary/50">
+    <Card className="w-full bg-secondary/50 border-2 border-primary/20 shadow-xl">
       <CardHeader>
         <CardTitle className="flex items-center gap-2 text-xl">
           <Zap className="text-primary"/> AI Decision Feed Showcase
@@ -103,7 +103,7 @@ export function DssShowcase() {
         <ScrollArea className="w-full whitespace-nowrap">
           <div className="flex w-max space-x-4 p-4">
             {showcaseSuggestions.map((rec) => (
-                <Card key={rec.suggestionId} className='shadow-md w-96 shrink-0 flex flex-col bg-background'>
+                <Card key={rec.suggestionId} className='shadow-md w-96 shrink-0 flex flex-col bg-background transform transition-transform hover:-translate-y-1'>
                     <CardHeader className="pb-3">
                         <CardTitle className="flex flex-col justify-between items-start gap-2">
                              <div className="flex justify-between w-full items-start">

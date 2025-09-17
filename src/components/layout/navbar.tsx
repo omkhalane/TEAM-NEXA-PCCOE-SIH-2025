@@ -3,7 +3,7 @@
 import * as React from 'react';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { Menu, Moon, Sun, TrainFront, Clock } from 'lucide-react';
+import { Menu, Moon, Sun, TrainTrack, Clock } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import Link from 'next/link';
 import { useTime } from '@/context/TimeContext';
@@ -42,7 +42,7 @@ export function Navbar() {
       <div className="container mx-auto flex h-16 items-center px-4">
         <div className="mr-4 hidden md:flex">
           <Link href="/" className="mr-6 flex items-center space-x-2">
-            <TrainFront className="h-6 w-6 text-primary" />
+            <TrainTrack className="h-6 w-6 text-primary" />
             <span className="hidden font-bold sm:inline-block">RailPulse</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
@@ -69,7 +69,7 @@ export function Navbar() {
               <SheetContent side="left">
                 <nav className="grid gap-6 text-lg font-medium mt-6">
                   <Link href="/" className="flex items-center space-x-2">
-                     <TrainFront className="h-6 w-6 text-primary" />
+                     <TrainTrack className="h-6 w-6 text-primary" />
                      <span className="font-bold">RailPulse</span>
                   </Link>
                   {navLinks.map((link) => (

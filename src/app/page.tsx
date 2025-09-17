@@ -28,6 +28,7 @@ import {
   LineChart,
   Waypoints,
   AlertTriangle,
+  TrainTrack,
 } from 'lucide-react';
 import { Footer } from '@/components/layout/footer';
 import { Navbar } from '@/components/layout/navbar';
@@ -146,15 +147,15 @@ function HomePageContent() {
     <div className="flex min-h-screen flex-col">
       <Navbar />
       <main className="flex-1">
-        <section className="bg-secondary/50 py-16 sm:py-24">
+        <section className="bg-secondary/50 py-20 md:py-32">
           <div className="container mx-auto px-4 text-center">
-            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl">
+            <h1 className="text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl animate-fade-in-down">
               The Future of Rail Operations is Here
             </h1>
-            <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground">
+            <p className="mx-auto mt-6 max-w-3xl text-lg text-muted-foreground animate-fade-in-up">
               RailPulse combines nationwide live train tracking with a powerful AI-driven Decision Support System (DSS) to create the most advanced rail management platform in India.
             </p>
-            <div className="mt-12 flex flex-wrap justify-center gap-4">
+            <div className="mt-12 flex flex-wrap justify-center gap-4 animate-fade-in">
               <Button size="lg" variant="default" onClick={() => router.push('/dss-corridor')}>
                 <Bot className="mr-2 h-5 w-5" />
                 Launch DSS Cockpit
@@ -167,9 +168,9 @@ function HomePageContent() {
           </div>
         </section>
 
-        <section className="container mx-auto -mt-10 px-4 md:-mt-16">
+        <section className="container mx-auto -mt-16 px-4">
           <div className="grid grid-cols-1 gap-8 lg:grid-cols-2">
-            <Card>
+            <Card className="animate-slide-in-left">
               <CardHeader>
                 <CardTitle>Trains Between Stations</CardTitle>
                 <CardDescription>
@@ -193,7 +194,7 @@ function HomePageContent() {
                 </p>
               </CardContent>
             </Card>
-            <Card>
+            <Card className="animate-slide-in-right">
               <CardHeader>
                 <CardTitle>Where is My Train?</CardTitle>
                 <CardDescription>
@@ -215,7 +216,7 @@ function HomePageContent() {
             </Card>
           </div>
           {recentSearches.length > 0 && (
-            <Card className="mt-8">
+            <Card className="mt-8 animate-fade-in">
               <CardHeader>
                 <CardTitle className="flex items-center gap-2"><History size={20}/> Recent Searches</CardTitle>
               </CardHeader>
@@ -236,54 +237,58 @@ function HomePageContent() {
 
         <section className="bg-background py-16 sm:py-24">
           <div className="container mx-auto px-4">
-            <div className="mx-auto max-w-2xl text-center">
-              <h2 className="text-3xl font-bold tracking-tight">
+            <div className="mx-auto max-w-3xl text-center">
+              <h2 className="text-3xl font-bold tracking-tight sm:text-4xl">
                 Powered by an AI Decision Support System
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
                 Our DSS is the brain behind RailPulse, analyzing vast amounts of
-                data to provide actionable intelligence for traffic controllers.
+                data to provide actionable intelligence for traffic controllers, ensuring a safer and more efficient railway network.
               </p>
             </div>
             <div className="mt-12">
               <DssShowcase />
             </div>
-            <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              <div className="flex flex-col items-center text-center">
-                <AlertTriangle className="h-10 w-10 text-destructive mb-3" />
-                <h3 className="font-semibold">Conflict Detection</h3>
-                <p className="text-sm text-muted-foreground">
-                  Proactively identifies potential scheduling conflicts for
-                  platforms, tracks, and yards before they cause delays.
+            <div className="mt-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
+              <div className="flex flex-col items-center text-center p-4 rounded-lg transition-all hover:bg-secondary/70 hover:scale-105">
+                <div className="bg-primary/10 p-3 rounded-full mb-4">
+                    <AlertTriangle className="h-10 w-10 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg">Proactive Conflict Detection</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Our AI identifies potential scheduling conflicts for platforms, tracks, and yards minutes before they cause delays.
                 </p>
               </div>
-              <div className="flex flex-col items-center text-center">
-                <Waypoints className="h-10 w-10 text-primary mb-3" />
-                <h3 className="font-semibold">Smart Routing</h3>
-                <p className="text-sm text-muted-foreground">
-                  Generates optimal routing and holding recommendations to
-                  minimize passenger impact and maintain schedules.
+              <div className="flex flex-col items-center text-center p-4 rounded-lg transition-all hover:bg-secondary/70 hover:scale-105">
+                <div className="bg-primary/10 p-3 rounded-full mb-4">
+                    <Waypoints className="h-10 w-10 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg">Intelligent Routing</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Generates optimal routing and holding recommendations to minimize passenger impact and maintain network schedules.
                 </p>
               </div>
-              <div className="flex flex-col items-center text-center">
-                <LineChart className="h-10 w-10 text-accent mb-3" />
-                <h3 className="font-semibold">KPI Monitoring</h3>
-                <p className="text-sm text-muted-foreground">
-                  Tracks key performance indicators like on-time percentage,
-                  average delay, and corridor throughput in real-time.
+              <div className="flex flex-col items-center text-center p-4 rounded-lg transition-all hover:bg-secondary/70 hover:scale-105">
+                <div className="bg-primary/10 p-3 rounded-full mb-4">
+                    <LineChart className="h-10 w-10 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg">Live KPI Monitoring</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Tracks key performance indicators like on-time percentage, average delay, and corridor throughput in real-time.
                 </p>
               </div>
-              <div className="flex flex-col items-center text-center">
-                <ZapIcon className="h-10 w-10 text-green-500 mb-3" />
-                <h3 className="font-semibold">Increased Efficiency</h3>
-                <p className="text-sm text-muted-foreground">
-                  Improves overall network fluidity, reduces operational costs,
-                  and enhances safety across the corridor.
+              <div className="flex flex-col items-center text-center p-4 rounded-lg transition-all hover:bg-secondary/70 hover:scale-105">
+                <div className="bg-primary/10 p-3 rounded-full mb-4">
+                    <ZapIcon className="h-10 w-10 text-primary" />
+                </div>
+                <h3 className="font-semibold text-lg">Enhanced Efficiency</h3>
+                <p className="text-sm text-muted-foreground mt-2">
+                  Improves overall network fluidity, reduces operational costs, and enhances safety across the entire rail corridor.
                 </p>
               </div>
             </div>
             <div className="text-center mt-12">
-              <Button onClick={() => router.push('/dss-corridor')}>
+              <Button size="lg" onClick={() => router.push('/dss-corridor')}>
                 Explore the DSS Cockpit
               </Button>
             </div>
