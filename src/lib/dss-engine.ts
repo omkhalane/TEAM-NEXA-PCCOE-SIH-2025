@@ -118,15 +118,22 @@ const mockSuggestions: Omit<Suggestion, 'suggestionId' | 'conflictId'>[] = [
 
 const getMockSuggestions = (count: number): Suggestion[] => {
     const suggestions: Suggestion[] = [];
-    for (let i = 0; i < count; i++) {
-        const mock = mockSuggestions[i % mockSuggestions.length];
-        const suggestionId = `mock-sugg-${Date.now()}-${i}`;
-        const conflictId = `mock-conf-${Date.now()}-${i}`;
-        suggestions.push({
-            ...mock,
-            suggestionId,
-            conflictId,
-        });
+    const usedIndices = new Set<number>();
+    while (suggestions.length < count) {
+        const mockIndex = Math.floor(Math.random() * mockSuggestions.length);
+        if (!usedIndices.has(mockIndex)) {
+            const mock = mockSuggestions[mockIndex];
+            const suggestionId = `mock-sugg-${Date.now()}-${suggestions.length}`;
+            const conflictId = `mock-conf-${Date.now()}-${suggestions.length}`;
+            suggestions.push({
+                ...mock,
+                suggestionId,
+                conflictId,
+            });
+            usedIndices.add(mockIndex);
+        }
+        // If all unique mocks are used, break to avoid infinite loop
+        if (usedIndices.size === mockSuggestions.length) break;
     }
     return suggestions;
 };
@@ -224,7 +231,7 @@ const detectConflictsByPlatform = (trains: ProcessedTrain[], now: Date): Conflic
         const [stationCode, platform] = key.split('-');
         if (platform === '--' || platform === 'N/A') continue;
 
-        const platformTrains = trainsByPlatform[key];
+        const platformTrains = trainsByPlatform[key].sort((a,b) => a.occupancyStart.getTime() - b.occupancyStart.getTime());
         for (let i = 0; i < platformTrains.length; i++) {
             for (let j = i + 1; j < platformTrains.length; j++) {
                 const trainA = platformTrains[i];
@@ -400,11 +407,15 @@ export const runUpdate = (now: Date): DssOutput => {
     let aiSuggestions = conflicts
       .map(conflict => computeSuggestion(conflict, trainsNowWindow));
       
-    if (aiSuggestions.length === 0) {
-        aiSuggestions = getMockSuggestions(12);
-    } else {
-        aiSuggestions = aiSuggestions.slice(0, 12);
+    // If there are fewer than 12 real suggestions, pad with mock suggestions.
+    if (aiSuggestions.length < 12) {
+        const mockCount = 12 - aiSuggestions.length;
+        const mock = getMockSuggestions(mockCount);
+        aiSuggestions = [...aiSuggestions, ...mock];
     }
+
+    // Ensure we don't exceed 12
+    aiSuggestions = aiSuggestions.slice(0, 12);
       
     const computedKPIs = computeKPIs(trainsNowWindow, conflicts, now, windowEnd);
 
@@ -418,3 +429,5 @@ export const runUpdate = (now: Date): DssOutput => {
         computedKPIs,
     };
 }
+
+    
