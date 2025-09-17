@@ -44,8 +44,4 @@ The project follows a standard Next.js App Router structure:
 -   `public/`: Stores static assets like images and icons.
 -   `indian-railways-*.json`: These root-level JSON files contain static data for all Indian railway stations and trains, used to power the search and autocomplete functionality.
 
-# TEAM-NEXA-PCCOE-SIH-2025
-# TEAM-NEXA-PCCOE-SIH-2025
-# TEAM-NEXA-PCCOE-SIH-2025
-# TEAM-NEXA-PCCOE-SIH-2025
-# TEAM-NEXA-PCCOE-SIH-2025
+
