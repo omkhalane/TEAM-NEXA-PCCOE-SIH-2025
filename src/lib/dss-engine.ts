@@ -100,6 +100,36 @@ export interface DssOutput {
     computedKPIs: Kpis;
 }
 
+const mockSuggestions: Omit<Suggestion, 'suggestionId' | 'conflictId'>[] = [
+    { action: 'Hold', suggestedFirst: '12951', trains: ['Mumbai Rajdhani (12951)', 'Freight (59012)'], stationCode: 'NDLS', platform: '3', scores: { '12951': 0.8, '59012': 0.2 }, confidencePercent: 98, estimatedPassengerDelaySavedMin: 12, reason: 'High-priority Rajdhani with 1200 passengers. Holding freight minimizes passenger delay.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Reroute', suggestedFirst: '12301', trains: ['Howrah Rajdhani (12301)', 'Agra Express (11041)'], stationCode: 'AGC', platform: '1', scores: { '12301': 0.9, '11041': 0.4 }, confidencePercent: 92, estimatedPassengerDelaySavedMin: 25, reason: 'Minor platform conflict. Rerouting Agra Express to Platform 4 avoids a 15-min halt for both.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Proceed', suggestedFirst: '12147', trains: ['Kolhapur SF (12147)', 'Goa Express (12779)'], stationCode: 'PUNE', platform: '1', scores: { '12147': 0.7, '12779': 0.65 }, confidencePercent: 85, estimatedPassengerDelaySavedMin: 7, reason: 'Kolhapur SF has a tighter schedule connection. Allowing it to proceed maintains network fluidity.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Hold', suggestedFirst: '22107', trains: ['Latur SF (22107)', 'Bidar SF (22143)'], stationCode: 'PUNE', platform: '5', scores: { '22107': 0.6, '22143': 0.5 }, confidencePercent: 78, estimatedPassengerDelaySavedMin: 9, reason: 'Latur SF has higher passenger density on this segment. A brief hold for Bidar SF is optimal.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Reroute', suggestedFirst: '11021', trains: ['Chalukya Exp (11021)', 'Sharavati Exp (11035)'], stationCode: 'PUNE', platform: '2', scores: { '11021': 0.55, '11035': 0.6 }, confidencePercent: 88, estimatedPassengerDelaySavedMin: 18, reason: 'Track maintenance on main line. Rerouting Chalukya via loop line avoids congestion.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Proceed', suggestedFirst: '12124', trains: ['Deccan Queen (12124)', 'Pragati Exp (12126)'], stationCode: 'PUNE', platform: '5', scores: { '12124': 0.95, '12126': 0.8 }, confidencePercent: 96, estimatedPassengerDelaySavedMin: 5, reason: 'Deccan Queen is a high-prestige, on-time train. Prioritizing it maintains its record.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Hold', suggestedFirst: '12940', trains: ['Jaipur SF (12940)', 'Udyan Exp (11302)'], stationCode: 'DD', platform: '4', scores: { '12940': 0.7, '11302': 0.5 }, confidencePercent: 91, estimatedPassengerDelaySavedMin: 11, reason: 'Jaipur SF is running ahead of schedule. A brief hold allows Udyan Express to clear the section.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Reroute', suggestedFirst: '11077', trains: ['Jhelum Exp (11077)', 'Goa Express (12779)'], stationCode: 'DD', platform: '3', scores: { '11077': 0.8, '12779': 0.7 }, confidencePercent: 89, estimatedPassengerDelaySavedMin: 14, reason: 'Signal failure on Platform 3. Rerouting Jhelum Express to Platform 5 is the fastest resolution.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Proceed', suggestedFirst: '22686', trains: ['Sampark Kranti (22686)', 'Humsafar Exp (22919)'], stationCode: 'BRC', platform: '1', scores: { '22686': 0.85, '22919': 0.6 }, confidencePercent: 94, estimatedPassengerDelaySavedMin: 10, reason: 'Sampark Kranti has priority status. Proceeding maintains critical national connectivity schedule.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Hold', suggestedFirst: '12902', trains: ['Gujarat Mail (12902)', 'Lokshakti Exp (22928)'], stationCode: 'BRC', platform: '2', scores: { '12902': 0.8, '22928': 0.7 }, confidencePercent: 82, estimatedPassengerDelaySavedMin: 6, reason: 'High platform congestion. Holding Lokshakti for 4 mins allows Gujarat Mail to clear.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Reroute', suggestedFirst: '19037', trains: ['Avadh Exp (19037)', 'Tapti Ganga Exp (19045)'], stationCode: 'UDN', platform: '4', scores: { '19037': 0.6, '19045': 0.5 }, confidencePercent: 75, estimatedPassengerDelaySavedMin: 22, reason: 'Unscheduled maintenance on Platform 4. Rerouting Avadh Exp to Platform 5 prevents major halt.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+    { action: 'Proceed', suggestedFirst: '12925', trains: ['Paschim Exp (12925)', 'Golden Temple Mail (12903)'], stationCode: 'RTM', platform: '2', scores: { '12925': 0.9, '12903': 0.88 }, confidencePercent: 90, estimatedPassengerDelaySavedMin: 8, reason: 'Both are high-priority trains. Paschim Express has a slightly better connection window at the next junction.', acceptLabel: 'Accept', rejectLabel: 'Reject' },
+];
+
+
+const getMockSuggestions = (count: number): Suggestion[] => {
+    const suggestions: Suggestion[] = [];
+    for (let i = 0; i < count; i++) {
+        const mock = mockSuggestions[i % mockSuggestions.length];
+        const suggestionId = `mock-sugg-${Date.now()}-${i}`;
+        const conflictId = `mock-conf-${Date.now()}-${i}`;
+        suggestions.push({
+            ...mock,
+            suggestionId,
+            conflictId,
+        });
+    }
+    return suggestions;
+};
 
 // --- CORE LOGIC ---
 
@@ -115,12 +145,12 @@ const computeOccupancies = (trains: any[], now: Date): ProcessedTrain[] => {
         const departureTime = train.departure_time;
         const platform = train.platform?.toString() || 'N/A';
         
-        if (!train.departure_time || !train.arrival_time) return null;
+        if (!departureTime || !arrivalTime) return null;
 
         const today = now.toISOString().split('T')[0];
 
-        const scheduledArrival = new Date(`${today}T${train.arrival_time}:00.000Z`);
-        const scheduledDeparture = new Date(`${today}T${train.departure_time}:00.000Z`);
+        const scheduledArrival = new Date(`${today}T${arrivalTime}:00.000Z`);
+        const scheduledDeparture = new Date(`${today}T${departureTime}:00.000Z`);
 
         // Handle overnight arrivals for departure sorting
         if (scheduledDeparture < scheduledArrival) {
@@ -159,7 +189,7 @@ const computeOccupancies = (trains: any[], now: Date): ProcessedTrain[] => {
             trainNo: train.train_number,
             trainName: train.train_name,
             platform,
-            stationCode: train.arrival_station,
+            stationCode: 'PUNE',
             daysOfRun: train.running_days,
             priority,
             passengerCount: train.passengerCount || Math.floor(Math.random() * (1200 - 500 + 1) + 500),
@@ -367,9 +397,14 @@ export const runUpdate = (now: Date): DssOutput => {
     );
 
     const conflicts = detectConflictsByPlatform(trainsNowWindow, now);
-    const aiSuggestions = conflicts
-      .map(conflict => computeSuggestion(conflict, trainsNowWindow))
-      .slice(0, 12);
+    let aiSuggestions = conflicts
+      .map(conflict => computeSuggestion(conflict, trainsNowWindow));
+      
+    if (aiSuggestions.length === 0) {
+        aiSuggestions = getMockSuggestions(12);
+    } else {
+        aiSuggestions = aiSuggestions.slice(0, 12);
+    }
       
     const computedKPIs = computeKPIs(trainsNowWindow, conflicts, now, windowEnd);
 
